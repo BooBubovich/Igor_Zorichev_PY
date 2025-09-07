@@ -117,4 +117,4 @@ print(new_var4, type(new_var4))
 new_var5 = [1, 2.3, 'четыре', True]
 print(new_var5, type(new_var5))
 переменная = 10
-print(переменная, type(переменная))
+print(переменная, type(переменная), 'да работает, но PEP8')
