@@ -10,8 +10,6 @@
 8.0
 125.0
 """
-from urllib3 import request
-
 # from math import sqrt, pow
 #
 # print(sqrt(64))
