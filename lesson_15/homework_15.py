@@ -165,9 +165,9 @@ print(datetime.datetime.now().strftime("%d.%m.%Y %H:%M:%S"))
 2024-02-16 14:35:15 Запуск программы
 2024-02-16 14:40:22 Запуск программы
 """
-# import datetime
-#
-# with open('logs.txt', mode='a+', encoding='utf-8') as logs:
-#     logs.write(f'{datetime.datetime.now().strftime('%d.%m.%Y %H:%M:%S')} Запуск программы\n')
-#     logs.seek(0)
-#     print(logs.read())
+import datetime
+
+with open('logs.txt', mode='a+', encoding='utf-8') as logs:    #'a+' автоматически создаёт файл 'logs.txt' если его не существует
+    logs.write(f'{datetime.datetime.now().strftime('%d.%m.%Y %H:%M:%S')} Запуск программы\n')
+    logs.seek(0)
+    print(logs.read())
