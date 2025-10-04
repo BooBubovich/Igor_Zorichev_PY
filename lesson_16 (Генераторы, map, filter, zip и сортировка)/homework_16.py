@@ -9,11 +9,6 @@
 Ожидаемый вывод:
 Python Java C++
 """
-from cProfile import label
-from itertools import count
-from logging.config import RESET_ERROR
-from operator import truediv
-
 # lst = ["Python", 123, "Java", 456, "C++", 789]
 #
 # res = filter(lambda i: isinstance(i, str), lst)
